@@ -1,7 +1,104 @@
 /* Our CSS file. */
-
-
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    }
+    .border 
+    {
+        border-style:solid;
+        border-width:1px;
+        padding:5px
+    }
+    .alignment1 
+    {
+        border-style:solid;
+        border-width:1px;
+        padding:5px;
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+    }
+    .alignment3
+    {
+        float:right
+    }
+    .alignment4
+    {
+        float:left
+    }
+    .alignment5
+    {
+        border-style:solid;
+        width:200px;
+        margin:5px;
+        border-width:1px;
+        float:left;
+        height: 337px;
+        display: flex;
+        flex-direction:column;
+        align-items:left;
+    }
+    .alignment6 
+    {
+        border-style:solid;
+        width:200px;
+        margin:5px;
+        border-width:1px;
+        float:right;
+        height: 337px;
+        display: flex;
+        flex-direction:column;
+        align-items:left;
+    }
+    .alignment7 
+    {
+        border-style:solid;
+        width:1000px;
+        margin:auto;
+        border-width: 1px;
+        height:337px;
+        margin-top:5px;
+    }
+    .post-img 
+    {
+        float:left;
+        margin: 20px;
+        float:center;
+        margin-left:7.7%;
+        padding: 5px;
+    }
+    .alignment8 
+    {
+        float:left;
+    }
+    .alignment9 
+    {
+        border-style: solid;
+        border-width: 1px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .alignment10 
+    {
+        background-color: rgb(228, 236, 236);
+        border-style:solid;
+        border-width:1px;
+        padding:5px;
+    }
+    .alignment11 
+    {
+        float: none;
+        padding: 110px;
+    }
+    .first-three-images 
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .second-three-images 
+    {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
